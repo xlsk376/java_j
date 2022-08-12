@@ -106,6 +106,8 @@ public class 벡터_기본이론2_학생관리 {
 				if(count == 1) {
 					numberList = null;
 					scoreList = null;
+				}else if(count > 1) {
+					
 				}
 				
 				
