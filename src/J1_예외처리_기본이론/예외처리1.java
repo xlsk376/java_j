@@ -23,6 +23,7 @@ public class 예외처리1 {
 			e.printStackTrace(); // 자바에서 제공하는 출력문 (어떤에러인지알려준다.)		
 		}		
 		System.out.println("프로그램 종료");
+		
 
 	}
 

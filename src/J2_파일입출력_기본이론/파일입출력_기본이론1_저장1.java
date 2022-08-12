@@ -13,7 +13,6 @@ public class 파일입출력_기본이론1_저장1 {
 
 		String fileName = "file01.txt";
 		FileWriter fw = null; // try 밖에서 사용을 위해 보통 밖에 변수를 만든다.
-		int a = 10;
 		try {
 			fw = new FileWriter(fileName);
 			fw.write("김철수,10\n이영희,30\n박만수,50");
