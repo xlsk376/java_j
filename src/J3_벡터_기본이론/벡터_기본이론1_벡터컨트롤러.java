@@ -1,5 +1,6 @@
 package J3_벡터_기본이론;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class 벡터_기본이론1_벡터컨트롤러 {
@@ -126,7 +127,7 @@ public class 벡터_기본이론1_벡터컨트롤러 {
 					score = new int[count + 1];
 					
 					int j = 0;
-					for(int i = 0; i < count; i++) {
+					for(int i = 0; i < count+1; i++) {
 						if(i != insertIdx) {
 							score[i] = temp[j];
 							j += 1;
